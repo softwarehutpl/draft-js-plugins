@@ -1,7 +1,6 @@
 {
-  "name": "draft-js-plugins",
-  "version": "0.0.0",
-  "private": true,
+  "name": "@softwarehut/draft-js-mention-plugin",
+  "version": "0.0.1",
   "description": "A Plugin Architecture on top of Draft.JS",
   "author": {
     "name": "Nik Graf",
