@@ -31,7 +31,6 @@ const positionSuggestions = ({ decoratorRect, popover, state, props }) => {
   }
 
   const left = relativeRect.left + relativeRect.scrollLeft;
-  const top = relativeRect.top + relativeRect.scrollTop;
 
   let transform;
   let transition;
@@ -47,7 +46,7 @@ const positionSuggestions = ({ decoratorRect, popover, state, props }) => {
 
   return {
     left: `${left}px`,
-    top: `${top}px`,
+    top: `70px`,
     transform,
     transformOrigin: '1em 0%',
     transition,
